@@ -6,7 +6,7 @@ int main()
     cin >> monthNumber;
     string month[] = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
 
-    for (int i = 1; i <= sizeof(month) / sizeof(month[0]); i++)
+    for (int i = 1; i <= 12; i++)
     {
         if (monthNumber == i)
         {
