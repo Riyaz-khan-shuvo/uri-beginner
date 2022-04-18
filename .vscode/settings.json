@@ -3,6 +3,7 @@
         "*html": "html",
         "iostream": "cpp",
         "random": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "valarray": "cpp"
     }
 }
