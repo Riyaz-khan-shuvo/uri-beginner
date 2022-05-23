@@ -2,38 +2,38 @@
 
 using namespace std;
 
-int main(){
-    
+int main()
+{
+
     int n;
     int x, y, aux;
     int sum;
-    
-    while(true){
-                
-                cin >> x;
-                cin >> y;
-                if (x<=0 ||y<=0)
-                {
-                    break;
-                }                
-                if(x > y){
-                     aux = x;
-                     x = y;
-                     y = aux;
-                }
-                sum = 0;
-                for(int i = x; i <= y; i++){
-                        cout << i << " ";
-                       sum += i;
-                }
-                cout << "Sum=" << sum << endl;
+
+    while (true)
+    {
+
+        cin >> x;
+        cin >> y;
+        if (x <= 0 || y <= 0)
+        {
+            break;
+        }
+        if (x > y)
+        {
+            aux = x;
+            x = y;
+            y = aux;
+        }
+        sum = 0;
+        for (int i = x; i <= y; i++)
+        {
+            cout << i << " ";
+            sum += i;
+        }
+        cout << "Sum=" << sum << endl;
     }
     return 0;
 }
-
-
-
-
 
 // #include<bits/stdc++.h>
 // using namespace std;
@@ -55,7 +55,7 @@ int main(){
 //         lowRange = highRange;
 //         highRange = changeValue;
 //     }
-   
+
 //     for (int i = lowRange; i <= highRange; i++)
 //     {
 //         cout<<i<<" ";
